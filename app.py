@@ -33,7 +33,7 @@ input_data = pd.DataFrame({
     'age': [age],
     'family_size': [family_size],
     'income': [income],
-    'customer_since': [cx_since],
+    'customer_since': [customer_since],
     'numdealspurchases': [numdealspurchases],
     'total_amnt': [total_amnt],
     'total_purchases': [total_purchases],
