@@ -8,7 +8,7 @@ from sklearn.base import BaseEstimator, TransformerMixin
 from sklearn.pipeline import Pipeline
 from sklearn.preprocessing import MinMaxScaler
 from sklearn.cluster import KMeans
-from features import cxloyaltyfeature
+from cxloyaltyfeature import cxloyaltyfeature
 from sklearn.compose import ColumnTransformer
 
 # Load trained pipeline
