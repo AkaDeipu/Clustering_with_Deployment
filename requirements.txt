@@ -2,10 +2,9 @@ streamlit
 pandas
 numpy
 joblib
-BaseEstimator
-TransformerMixin
 Pipeline
 MinMaxScaler
 KMeans
 cxloyaltyfeature
 ColumnTransformer
+
