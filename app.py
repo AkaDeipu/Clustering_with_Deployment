@@ -22,7 +22,7 @@ st.write("### Predict cluster for a single customer")
 age = st.number_input("Age", min_value=18, max_value=100, value=30)
 family_size = st.number_input("Family Size", min_value=1, max_value=10, value=3)
 income = st.number_input("Annual Income", min_value=10000, max_value=500000, value=50000)
-cx_since = st.number_input("Customer Since (days)", min_value=1, max_value=365*10, value=365)
+customer_since = st.number_input("Customer Since (days)", min_value=1, max_value=365*10, value=365)
 numdealspurchases = st.number_input("Number of Deals Purchased", min_value=0, max_value=50, value=5)
 total_amnt = st.number_input("Total Amount Spent", min_value=0, max_value=100000, value=2000)
 total_purchases = st.number_input("Total Purchases", min_value=0, max_value=200, value=20)
@@ -33,7 +33,7 @@ input_data = pd.DataFrame({
     'age': [age],
     'family_size': [family_size],
     'income': [income],
-    'cx_since': [cx_since],
+    'customer_since': [cx_since],
     'numdealspurchases': [numdealspurchases],
     'total_amnt': [total_amnt],
     'total_purchases': [total_purchases],
