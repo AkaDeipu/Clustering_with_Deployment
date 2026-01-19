@@ -12,7 +12,7 @@ from cxloyaltyfeature import cxloyaltyfeature
 from sklearn.compose import ColumnTransformer
 
 # Load trained pipeline
-pipeline = joblib.load("kmeans_pipeline.pkl")
+pipeline = joblib.load("clst_pipeline.pkl")
 
 st.title("Customer Segmentation with KMeans")
 
